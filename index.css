@@ -1,0 +1,157 @@
+
+
+
+h1{
+        margin: 0;
+       
+        margin-left: -56px;
+        font-size: 3rem;
+        color:orangered;
+}
+
+.my-para{
+		font-size: 3.4rem;
+		margin-top: -4px;
+		
+}
+
+.hero-intro{
+		font-size: 2.4rem;
+		margin-top: -4px;
+		color: rgb(120, 100, 86);
+		animation: bismark 0.8s ease-out;;
+		transition: 0.8s;;
+		line-height: 1.4;
+}
+
+@keyframes bismark {
+  from {
+	opacity: 0;
+	transform: translateY(40px);
+  }
+  to {
+	opacity: 1;
+	transform: translateY(0);
+  }
+}
+
+
+.fa-solid{
+        padding: 0;
+}
+
+.heronavs{
+      position: fixed;
+       display: flex;
+        z-index: 9999;
+        justify-content: space-around;
+        width: 100%;
+        padding: 10px;
+		margin-top: -170px;
+}
+
+.spandown{
+        font-size: 1.53rem;
+        border-radius: 10px;
+        width: 500px;
+        padding: 10px;
+		  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+		  animation: alternate 0.8s ease-in-out 0.5s fadeIn;
+        
+
+}
+@keyframes  alternate {
+  from {
+	opacity: 0;
+	transform: translateY(0);
+  }
+  to {
+	opacity: 1;
+	transform: translateY(-40px);
+  }
+}
+
+
+
+.getStarted{
+        
+  height: 45px;  
+  justify-content: center; 
+  width: 132px;  
+  border: none;
+  border-radius: 20px;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  
+}
+
+.getStarted:hover{
+color: darkcyan;
+background-color: brown;
+
+}
+
+
+ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+
+}
+
+a{
+        font-size: 1.65rem;
+        text-decoration: none;
+        color: rgb(120, 100, 86);
+}
+
+.heroparagraph{
+        font-size: 1.5rem;
+        margin-block-start: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+		padding: -5px;
+		padding: 70px ;
+		box-shadow: 0 5px 15px rgba(18, 13, 13, 0.3);
+		border-radius: 10px;
+                
+}
+
+
+.explore{
+	  height: 45px;  
+  justify-content: center; 
+  width: 140px;  
+  border: none;
+  border-radius: 20px;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border: none;
+  
+}
+.explore:hover{
+        background: brown;
+        color: darkcyan;
+        
+}
+
+footer{
+		background-color: #f8f8f8;
+		text-align: center;
+		font-size: 1.6rem;
+		color: #555;
+		
+}
+
+
+
